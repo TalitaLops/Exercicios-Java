@@ -8,9 +8,9 @@ public class exercicio14 {
         System.out.println("Digite o valor do custo de fábrica do carro: ");
         custoDeFabrica = sc.nextInt();
 
-        int custoFinal = (((custoDeFabrica * 28 / 100) + custoDeFabrica * 45 / 100) + custoDeFabrica);
+        float custoFinal = (((custoDeFabrica * 28 / 100) + custoDeFabrica * 45 / 100) + custoDeFabrica);
 
-        System.out.println("O valor do carro para o consumidor final é: " + custoFinal);
+        System.out.print("O valor do carro para o consumidor final é: " + custoFinal);
         
         sc.close();
     }
